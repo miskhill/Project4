@@ -108,7 +108,7 @@ $ python manage.py loaddata Busrating/seeds.json
 $ python manage.py runserver
 ```
 
-<insert main site image>
+![<insert main site image>](https://github.com/miskhill/Project4/blob/main/readmeproject4/jobpost.png)
 
 ## Approach
 
@@ -116,41 +116,41 @@ We spent time planning our different relationships in the back-end as to whether
 
 We used Excalidraw to wireframe this out as a visual indicator. Additionally we had 26 React components to consider and how we wanted these to interact with each other throughout the site. Additionally we used Trello to organise our components between each other and allow us to work independently. We did find though that we were on Zoom throughout and it made it easy to quickly catch up and keep on track.
 
-<insert wireframe image>
+![Wireframe](https://github.com/miskhill/Project4/blob/main/readmeproject4/wireframe.png)
 
 
 ## Back-End
 
 We wanted to have a secure authorised log-in system and registration to the site and used JWTAutentication in Django to achieve this. We liked the Django backend system for this compared to MongoDB as it allowed us easy access rights and a great admin section. This saved us time and was helpful.
 
-<insert Authorisation code screenshot>
+![Auth code](https://github.com/miskhill/Project4/blob/main/readmeproject4/authentication.png)
 
 We had multiple models to consider throughout the project and made use of ForeignKey, ManyToMany, ImageField among others.
 
-<insert modelspyrelationship screenshot>
+![Modelspyrelationship](https://github.com/miskhill/Project4/blob/main/readmeproject4/modelspyrelationships.png)
 
 We had some trouble hosting images for our database and with our models the URL was not displaying correctly. Cosmas used a slice method to get the information we needed to display these images. Although not ideal it was great to use JavaScript knowledge to make this happen.
 
-<insert manipulatingdatabaseimage screenshot >
+![Database manipulation](https://github.com/miskhill/Project4/blob/main/readmeproject4/manipulatingdatabaseimage.png)
 
 ## Front-End
 
 Login/Register:
 We needed to add authentication to allow business or employee users to login and sign up. This allowed the relationships to be independent so businesses could not rate employees who had not worked for them or employees to rate businesses they hadn't actually worked.
 
-<login screenshot insert>
+![login](https://github.com/miskhill/Project4/blob/main/readmeproject4/login.png)
 
 It was important that we had a list of all available employees and businesses. We felt this would be important to do visual searches.
 
-<insert All employees>
+![<insert All employees>](https://github.com/miskhill/Project4/blob/main/readmeproject4/AllEmployees.png)
 
 We wanted to implement search functionality as well so employee users could use a drop down/search bar or browse all jobs/locations.
 
-<insert jobsearchfunction screenshot>
+![<insert jobsearchfunction screenshot>](https://github.com/miskhill/Project4/blob/main/readmeproject4/Jobsearchfunction.png)
 
 Once the employee user sees a job they want they should also be able to apply to that post which will allow the business to see their profile and rating. From there they decide whether they want to hire the applicant. If they choose to hire they hit the accept button and their relationship is built.
 
-<insert jobsearchapply screenshot >
+![<insert jobsearchapply screenshot >](https://github.com/miskhill/Project4/blob/main/readmeproject4/jobsearchapply.png)
 
 
 ## Challenges
@@ -165,6 +165,9 @@ Once the employee user sees a job they want they should also be able to apply to
 - Django admin feature was great saving us a lot of time in terms of user admin rights. Compared to MongoDB this was a good time save.
 - I implemented a 3rd party API to generate random user profiles for us. We ultimately removed this feature and used the data we needed to seed our own database but it was pleasing to get this up and running and saved us a lot of time.
 - I enjoyed working with Python on the back-end. It was intuitive and although I was writing commands as oppose to JS functions it was still good to see this was natural rather than a struggle.
+- Good use of Insomnia! Even managed to share data so we didn't all have to make requests 
+
+![Insomnia](https://github.com/miskhill/Project4/blob/main/readmeproject4/Screenshot%202021-10-26%20at%2010.37.25.png)
 
 ## Future Improvements
 
