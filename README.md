@@ -12,9 +12,9 @@
 
 #### Project Brief
 
--   **Build a full-stack application**  by making your own backend and your own front-end
--   **Use an Express API**  to serve your data from a Django database
--   **Consume your API with a separate front-end**  built with React
+-   **Build a full-stack application**  by making your own backend and your own front-end.
+-   **Use an Express API**  to serve your data from a Django database.
+-   **Consume your API with a separate front-end**  built with React.
 -   **Be a complete product**  build multiple relationships.
 
 **Project Overview**
@@ -165,13 +165,13 @@ Once the employee user sees a job they want they should also be able to apply to
 - Django admin feature was great saving us a lot of time in terms of user admin rights. Compared to MongoDB this was a good time save.
 - I implemented a 3rd party API to generate random user profiles for us. We ultimately removed this feature and used the data we needed to seed our own database but it was pleasing to get this up and running and saved us a lot of time.
 - I enjoyed working with Python on the back-end. It was intuitive and although I was writing commands as oppose to JS functions it was still good to see this was natural rather than a struggle.
-- Good use of Insomnia! Even managed to share data so we didn't all have to make requests 
+- Good use of Insomnia! Even managed to share data so we didn't all have to make requests. 
 
 ![Insomnia](https://github.com/miskhill/Project4/blob/main/readmeproject4/Screenshot%202021-10-26%20at%2010.37.25.png)
 
 ## Future Improvements
 
--   More structure to the Map functionality with sizing uniform in CSS
--   Add responsive design for mobiles
+-   More structure to the Map functionality with sizing uniform in CSS.
+-   Add responsive design for mobiles.
 -  We wanted the rating to be relative to the user. If you had a bad rating or always rated low this would be taken into consideration with the weighting. 
-- Google/Facebook login for users
+- Google/Facebook login for users.
