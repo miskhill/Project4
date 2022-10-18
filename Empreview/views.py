@@ -21,7 +21,7 @@ class EmpreviewListView(APIView):
         if empreview_to_add.is_valid():
             empreview_to_add.save()
             return Response(empreview_to_add.data, status=status.HTTP_201_CREATED)
-        return Response(empreview_to_add.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+        return Response(empreview_to_add.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY, details="cannot post a review")
 
     def get(self, _request):
         empreview = Empreview.objects.all()

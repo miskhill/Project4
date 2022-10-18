@@ -95,7 +95,7 @@ $ pipenv install psycopg2-binary
 $ createdb hhub-app
 
 <!-- Migrate everything from the backend -->
-$ python manage.py makemigration
+$ python manage.py makemigrations
 $ python manage.py migrate
 
 <!-- Seed your database by running the following command -->

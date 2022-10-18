@@ -1,3 +1,4 @@
+from cmath import log
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -33,7 +34,7 @@ class UserprofileListView(APIView):
         if userprofile_to_add.is_valid():
             userprofile_to_add.save()
             return Response(userprofile_to_add.data, status=status.HTTP_201_CREATED)
-        return Response(userprofile_to_add.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+        return Response(userprofile_to_add.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY, detail="sadface")
 
 
 # single Userprofile
