@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Project4/static/css/main.0bcddaff.chunk.css",
+    "main.js": "/Project4/static/js/main.026e74ec.chunk.js",
+    "main.js.map": "/Project4/static/js/main.026e74ec.chunk.js.map",
+    "runtime-main.js": "/Project4/static/js/runtime-main.18fb5fd5.js",
+    "runtime-main.js.map": "/Project4/static/js/runtime-main.18fb5fd5.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Project4/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4029b329.chunk.js": "/Project4/static/js/2.4029b329.chunk.js",
+    "static/js/2.4029b329.chunk.js.map": "/Project4/static/js/2.4029b329.chunk.js.map",
+    "index.html": "/Project4/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/Project4/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.0bcddaff.chunk.css.map": "/Project4/static/css/main.0bcddaff.chunk.css.map",
+    "static/js/2.4029b329.chunk.js.LICENSE.txt": "/Project4/static/js/2.4029b329.chunk.js.LICENSE.txt",
+    "static/js/main.026e74ec.chunk.js.LICENSE.txt": "/Project4/static/js/main.026e74ec.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Project4/static/media/cityscape6.12a35ee6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18fb5fd5.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4029b329.chunk.js",
+    "static/css/main.0bcddaff.chunk.css",
+    "static/js/main.026e74ec.chunk.js"
+  ]
+}

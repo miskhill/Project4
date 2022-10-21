@@ -83,7 +83,7 @@ const Header = () => {
             </>
             :
             <>
-              <Link to="/" id="navLink">Login/Register</Link>
+              <Link to="/Project4" id="navLink">Login/Register</Link>
               <Link to="/profile/creation" id="navLink">Profile Creation</Link>
             </>
         }
