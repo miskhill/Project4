@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/HHUB/static/css/main.0bb0cc41.chunk.css",
+    "main.js": "/HHUB/static/js/main.12f2f2bd.chunk.js",
+    "main.js.map": "/HHUB/static/js/main.12f2f2bd.chunk.js.map",
+    "runtime-main.js": "/HHUB/static/js/runtime-main.6c3a2b04.js",
+    "runtime-main.js.map": "/HHUB/static/js/runtime-main.6c3a2b04.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/HHUB/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4029b329.chunk.js": "/HHUB/static/js/2.4029b329.chunk.js",
+    "static/js/2.4029b329.chunk.js.map": "/HHUB/static/js/2.4029b329.chunk.js.map",
+    "index.html": "/HHUB/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/HHUB/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.0bb0cc41.chunk.css.map": "/HHUB/static/css/main.0bb0cc41.chunk.css.map",
+    "static/js/2.4029b329.chunk.js.LICENSE.txt": "/HHUB/static/js/2.4029b329.chunk.js.LICENSE.txt",
+    "static/js/main.12f2f2bd.chunk.js.LICENSE.txt": "/HHUB/static/js/main.12f2f2bd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/HHUB/static/media/cityscape6.12a35ee6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c3a2b04.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4029b329.chunk.js",
+    "static/css/main.0bb0cc41.chunk.css",
+    "static/js/main.12f2f2bd.chunk.js"
+  ]
+}
